@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+}
+
+textarea {
+  width: 95%;
+  flex-grow: 0.95;
+}
+
+#split {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#left-split {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#right-split {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

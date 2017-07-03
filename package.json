@@ -1,0 +1,23 @@
+{
+  "name": "msketch",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/mt-caret/msketch",
+  "author": "Masayuki Takeda <mtakeda.enigsol@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "elm-webpack-loader": "^4.3.1",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "sanitize.css": "^5.0.0"
+  }
+}

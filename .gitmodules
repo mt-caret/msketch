@@ -1,0 +1,4 @@
+[submodule "elm-katex"]
+	path = elm-katex
+  url = https://github.com/bsouthga/elm-katex/
+  ignore = dirty
